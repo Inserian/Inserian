@@ -490,11 +490,3 @@ My broader work includes:
 - **GitHub:** [@Inserian](https://github.com/Inserian)
 
 ---
-
-<div align="center">
-
-### Quantum does not have to replace classical computing.
-
-### The point is to make the two work together.
-
-</div>
