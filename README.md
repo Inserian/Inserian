@@ -187,11 +187,11 @@ QELM supplies the original language and quantum-learning foundation. QSA supplie
 
 QSA begins with the structure that the quantum state actually has.
 
-For a register partitioned into independent components \(P\),
+For a register partitioned into independent components $P$,
 
-\[
+$$
 |\Psi\rangle = \bigotimes_{C \in P} |\psi_C\rangle
-\]
+$$
 
 The partition is part of the runtime state:
 
@@ -199,17 +199,17 @@ The partition is part of the runtime state:
 - interacting components merge only when an operation connects them;
 - each component independently uses the exact representation best suited to its current structure;
 - measurement and factor recovery can separate components again;
-- a global \(2^n\) statevector is materialized only when the realized state actually requires it.
+- a global $2^n$ statevector is materialized only when the realized state actually requires it.
 
 A pure single-qubit state retains both amplitude and phase:
 
-\[
+$$
 |\psi\rangle =
 \cos\left(\frac{\theta}{2}\right)|0\rangle +
 e^{i\phi}\sin\left(\frac{\theta}{2}\right)|1\rangle
-\]
+$$
 
-This matters to QELM because \(\theta\), \(\phi\), interference, correlations, and structured observables can become computational features rather than being immediately reduced to one measured scalar.
+This matters to QELM because $\theta$, $\phi$, interference, correlations, and structured observables can become computational features rather than being immediately reduced to one measured scalar.
 
 ---
 
@@ -329,7 +329,7 @@ It is intended to coordinate bounded relationships among learning signals, cogni
 | Result | Measurement |
 |---|---:|
 | Independent differential validation | **14,400 randomized gate operations passed** |
-| Fidelity tolerance | \(\left|1-F\right| \le 2 \times 10^{-10}\) |
+| Fidelity tolerance | $\left|1-F\right| \le 2 \times 10^{-10}$ |
 | Independent product register | **10,000 qubits in 1.03 MiB** |
 | Exact GHZ state | **50 qubits in 5.60 KiB** |
 | Independent Bell pairs | **100 pairs in 25.88 KiB** |
